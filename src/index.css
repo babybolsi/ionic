@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ion-tab-bar{
+    --background:#f9fafb;
+}
+ion-title{
+    letter-spacing:-1px;
+    font-size:25px;
+    font-weight: 600;
+}
+.header-md::after{
+    background-image: none;
+}
